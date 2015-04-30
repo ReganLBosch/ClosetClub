@@ -1,48 +1,207 @@
+/** {
+	background-color: #2f2f2f;
+}*/
+/** {
+  	background-image: url(images/background.gif) 
+ 	no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+ 	margin: 0;
+}*/
+body {
+	font-family: "adobe garamond pro";
+	font-style: "normal";
+	letter-spacing : 0.21px;
+	font-weight: 100;
+	color:#ffffff;
+	text-align: center;
+  	background-image: url(../images/dk-background.jpg); 
+	no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+ 	margin: 0;
+}
+
 h1 {
 	font-size: 40px;
 	font-family: "sail",fantasy;
 	color:#ffffff;
+	text-align: right;
+	margin: 10px 50px 0 0;
 }
+
 h2 {
-	font-size: 36px;
-  	font-family: "adobe-garamond-pro";
+	font-family: "adobe garamond pro";
 	font-style: "normal";
-	font-weight: 400;
-	color:#ffffff;
+	letter-spacing : 0.21px;
+	font-size: 28px;
+	color: #ffffff;
+  	letter-spacing : 0.36px;
+  	color : rgb(255, 255, 255);
+  	text-align: center;
+  	font-weight: 100;
 }
-h3 	{
-	font-size: 95px;
-	font-family: "adobe-garamond-pro";
-	font-weight: "normal";
-	font-weight: 400;
-	color:#ffffff;
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.login {
+	width: 100%;
+
+}
+
+.logo{
+	width: 600px;
+	padding-left: 20px;
+}
+
+.top-CTA {
+	width: 100%;
+	padding:0 0 100px 300px;
+}
+
+
+.123{
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto 0 auto;
+	background-color: white;
+}
+
+.steps{
+	width: 300px;
+/*	height:500px;*/
+	float: left;
+	margin: 0 50px 0 50px;
+/*	background-color: #5d5d5d;*/
+}
+h4::first-letter {
+  /*font-weight: bold;*/
+  color: white;
+  float: left;
+  font-size: 70px;
+  line-height: 70px; 
+/*  padding-top: 4px; */
+  padding-right: 8px;
+  padding-left: 3px;
+  text-align: left;
 }
 h4 {
-	font-size: 38px;
-	font-family: "adobe-garamond-pro";
+	font-size: 26px;
 	font-style: "bold";
 	font-weight: 700;
 	color: #f7c9b1;
+	text-align: left;
 }
+
+
+button {
+font-family : "adobe garamond pro";
+  font-weight : bold;
+  font-size : 33px;
+  letter-spacing : 0.36px;
+  padding: 10px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  background : #FF6666;
+  background : rgba(255, 102, 102, 1);
+  border: none;
+  border-radius : 9px;
+  -moz-border-radius : 9px;
+  -webkit-border-radius : 9px;
+  box-shadow : 7px 7px 5px rgba(0, 0, 0, 0.75);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=7, OffY=7, Color='#000000') ;
+}
+
+/*h3 	{
+	font-size: 95px;
+	color:#ffffff;
+	padding: 10px 2px 0px 0px;
+}*/
+
 h5 {
 	font-size: 50px;
-	font-family: "adobe-garamond-pro";
 	font-style: "bold";
 	font-weight: 700;
 	color:#ffffff;
+	text-decoration: underline;
+	margin: 200px 0 25px 50px;
+	text-align: left;
+	padding-top:200px;
 }
 h6 {
+	font-family: "adobe garamond pro";
 	font-size: 32px;
-	font-family: "adobe-garamond-pro";
-	font-weight: 400;
 	color: #f7c9b1;
-}
-body {
-	font-family: "adobe-garamond-pro";
+	text-align: center;
 	font-style: "normal";
 	font-weight: 400;
-	color:#ffffff;
 }
-* {
-	background-color: #2f2f2f;
+
+.service-icon {
+	width: 1200px;
+	margin: 0 auto 0 auto;
+}
+
+.icon{
+	width: 20%;
+	float:left;
+}
+
+.service-text {
+	width: 1200px;
+	margin: 0 auto 0 auto;
+}
+
+.service{
+	width: 20%;
+	float:left;
+}
+.bottom-CTA {
+	width: 1200;
+	padding:0 0 300px 0;
+	margin: 0 auto 0 auto;
+
+}
+
+.bottom-CTA-text{
+	text-align: right;
+/*	float: right;*/
+	font-family: "adobe garamond pro";
+	font-style: "normal";
+	font-size: 36px;
+	color: #ffffff;
+  	letter-spacing : 0.36px;
+  	color : rgb(255, 255, 255);
+  	font-weight: 400;
+  	padding: 0 0 0 30px;
+  	width: 600px;
+}
+
+footer{
+	height: 60px;
+	width: 1200px;
+	background-color: #f7c9b1;
+	no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+ 	margin: 0;
+}
+a{
+	font-family: "adobe garamond pro";
+	font-style: "bold";
+	font-weight: 700;
+  	font-weight: bold;
+  	font-size : 32px;
+  	color : #2F2F2F;
+  	color : rgb(47, 47, 47);
+  	background-color: #f7c9b1;
+  	padding: 0 80px;
 }
