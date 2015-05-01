@@ -10,20 +10,43 @@
  	background-size: cover;
  	margin: 0;
 }*/
+
+.container {
+	width: 1200px;
+	margin: 0 auto 0 auto;
+}
 body {
 	font-family: "adobe garamond pro";
 	font-style: "normal";
 	letter-spacing : 0.21px;
 	font-weight: 100;
-	color:#ffffff;
+	font-size: 16px;
+	color:#2f2f2f;
 	text-align: center;
-  	background-image: url(../images/dk-background.jpg); 
+	vertical-align: top;
+  	background-image: url(../images/background.jpg); 
 	no-repeat center center fixed; 
  	-webkit-background-size: cover;
  	-moz-background-size: cover;
  	-o-background-size: cover;
  	background-size: cover;
  	margin: 0;
+ 	padding: 0;
+/* 	vertical-align: top;*/
+/* 	line-height: auto;*/
+}
+.header {
+/*	display: inline-block;*/
+	margin: 0;
+	width: 1200px;
+	height: 200px;
+}
+
+.login {
+	width: 300px;
+	padding: 10px 50px 0 0;
+/*	display: inline-block;*/
+	float: right;
 }
 
 h1 {
@@ -31,7 +54,26 @@ h1 {
 	font-family: "sail",fantasy;
 	color:#ffffff;
 	text-align: right;
-	margin: 10px 50px 0 0;
+	margin: 0;
+/*	line-height: -10px;*/
+/*	display: inline;*/
+}
+
+.logo{
+	width: 600px;
+	float: left;
+/*	position: 0px;*/
+/*	line-height: 0;*/
+/*	vertical-align: top;*/
+/*	padding: 0 0 0 20px;*/
+	margin: 0 0 0 5px;
+/*	display: inline-block;*/
+/*	float: left;*/
+}
+
+.top-CTA {
+	width: 100%;
+	padding:0 0 100px 300px;
 }
 
 h2 {
@@ -44,79 +86,84 @@ h2 {
   	color : rgb(255, 255, 255);
   	text-align: center;
   	font-weight: 100;
+  	margin: 10px;
 }
-.container {
-	width: 1200px;
-	margin: 0 auto;
-}
-
-.login {
-	width: 100%;
-
-}
-
-.logo{
-	width: 600px;
-	padding-left: 20px;
-}
-
-.top-CTA {
-	width: 100%;
-	padding:0 0 100px 300px;
-}
-
-
-.123{
-	width: 1200px;
-	height: 600px;
-	margin: 0 auto 0 auto;
-	background-color: white;
-}
-
-.steps{
-	width: 300px;
-/*	height:500px;*/
-	float: left;
-	margin: 0 50px 0 50px;
-/*	background-color: #5d5d5d;*/
-}
-h4::first-letter {
-  /*font-weight: bold;*/
-  color: white;
-  float: left;
-  font-size: 70px;
-  line-height: 70px; 
-/*  padding-top: 4px; */
-  padding-right: 8px;
-  padding-left: 3px;
-  text-align: left;
-}
-h4 {
-	font-size: 26px;
-	font-style: "bold";
-	font-weight: 700;
-	color: #f7c9b1;
-	text-align: left;
-}
-
 
 button {
-font-family : "adobe garamond pro";
-  font-weight : bold;
-  font-size : 33px;
+  /*text-shadow: 1px 1px 3px #666666;
+  -webkit-box-shadow: 0px 3px 1px #666666;
+  -moz-box-shadow: 0px 3px 1px #666666;
+  box-shadow: 0px 3px 1px #666666;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ff6666;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  margin: 0 0 3px 0;
+}*/
+	font-family : "adobe garamond pro";
+  font-weight : normal;
+  font-size : 28px;
   letter-spacing : 0.36px;
-  padding: 10px;
+  padding: 10px 20px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
   background : #FF6666;
   background : rgba(255, 102, 102, 1);
   border: none;
-  border-radius : 9px;
-  -moz-border-radius : 9px;
-  -webkit-border-radius : 9px;
-  box-shadow : 7px 7px 5px rgba(0, 0, 0, 0.75);
-  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=7, OffY=7, Color='#000000') ;
+  border-radius: 5px
+  -moz-border-radius : 5px;
+  -webkit-border-radius : 5px;
+  box-shadow : 0 5px rgba(0, 0, 0, 0.75);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=7, OffY=7, Color='#000000') ;*/
 }
+
+
+.123{
+	width: 1200px;
+/*	height: 300px;*/
+/*	vertical-align: top;
+	text-align: top;*/
+	margin: 0 auto 0 auto;
+	line-height: auto;
+/*	padding-top: 100px;*/
+/*	background-color: white;*/
+}
+
+.steps{
+	width: 300px;
+/*	height:250px;*/
+	float: left;
+	background-color: rgba(0 0 0 .5);
+	margin: 0 50px 50px 50px;
+	padding: 0;
+	text-align: top;
+/*	background-color: #5d5d5d;*/
+}
+h4::first-letter {
+  font-weight: normal;
+  color: #cc6666;
+  float: left;
+  font-size: 90px;
+  line-height: 90px; 
+/*  padding-top: 4px; */
+  padding-right: 8px;
+  padding-left: 0px;
+  text-align: left;
+  margin: 0;
+}
+h4 {
+	font-size: 34px;
+	font-style: "bold";
+	font-weight: 700;
+	color: #2f2f2f;
+	text-align: left;
+/*	max-height: 100px;*/
+/*	line-height: 26px;*/
+	margin-bottom: 0;
+}
+
 
 /*h3 	{
 	font-size: 95px;
@@ -125,22 +172,26 @@ font-family : "adobe garamond pro";
 }*/
 
 h5 {
-	font-size: 50px;
+	font-size: 34px;
 	font-style: "bold";
 	font-weight: 700;
-	color:#ffffff;
+	color:#2F2F2F;
 	text-decoration: underline;
-	margin: 200px 0 25px 50px;
+	margin: 200px 0 20px 50px;
 	text-align: left;
-	padding-top:200px;
+	padding:200px 0 0 0;
 }
 h6 {
 	font-family: "adobe garamond pro";
-	font-size: 32px;
-	color: #f7c9b1;
+	font-size: 28px;
+	color: #cc6666;
 	text-align: center;
 	font-style: "normal";
 	font-weight: 400;
+	margin: 0;
+}
+.all-services{
+/*	margin-bottom: 200px;*/
 }
 
 .service-icon {
@@ -158,33 +209,41 @@ h6 {
 	margin: 0 auto 0 auto;
 }
 
-.service{
+.service-name{
 	width: 20%;
 	float:left;
+	margin: 0;
 }
 .bottom-CTA {
 	width: 1200;
-	padding:0 0 300px 0;
-	margin: 0 auto 0 auto;
-
+	padding: 300px 0 0 0;
+/*	margin: 0 auto 100px auto;*/
+/*	display: inline;*/
 }
 
 .bottom-CTA-text{
 	text-align: right;
-/*	float: right;*/
+	float: left;
 	font-family: "adobe garamond pro";
 	font-style: "normal";
 	font-size: 36px;
-	color: #ffffff;
+	color: #2f2f2f;
   	letter-spacing : 0.36px;
-  	color : rgb(255, 255, 255);
   	font-weight: 400;
-  	padding: 0 0 0 30px;
+  	padding: 0 0 10px 0px;
   	width: 600px;
+  	display: inline-block;
+}
+.bottom-button{
+	margin: 40px 150px 50px 0;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 32px;
+
 }
 
 footer{
-	height: 60px;
+	height: 30px;
 	width: 1200px;
 	background-color: #f7c9b1;
 	no-repeat center center fixed; 
@@ -192,16 +251,23 @@ footer{
  	-moz-background-size: cover;
  	-o-background-size: cover;
  	background-size: cover;
- 	margin: 0;
+ 	margin: 50px auto 0 auto;
+/* 	font-size: 20px;*/
+/* 	display: inline-block;*/
 }
-a{
+
+.foot{
 	font-family: "adobe garamond pro";
 	font-style: "bold";
 	font-weight: 700;
   	font-weight: bold;
-  	font-size : 32px;
+  	font-size : 20px;
+  	float: right;
+/*  	line-height: 20px;*/
+  	width: 25%;
+/* text-align: middle;
   	color : #2F2F2F;
   	color : rgb(47, 47, 47);
-  	background-color: #f7c9b1;
-  	padding: 0 80px;
-}
+/*  	background-color: #f7c9b1;*/
+  	padding: 0px 0px 0 0px;
+  }
