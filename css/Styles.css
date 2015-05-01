@@ -30,6 +30,7 @@ body {
  	-moz-background-size: cover;
  	-o-background-size: cover;
  	background-size: cover;
+	width: 1200px;
  	margin: 0;
  	padding: 0;
 /* 	vertical-align: top;*/
@@ -216,7 +217,7 @@ h6 {
 }
 .bottom-CTA {
 	width: 1200;
-	padding: 300px 0 0 0;
+	padding: 250px 0 0 0;
 /*	margin: 0 auto 100px auto;*/
 /*	display: inline;*/
 }
@@ -262,12 +263,12 @@ footer{
 	font-weight: 700;
   	font-weight: bold;
   	font-size : 20px;
-  	float: right;
+  	float: left;
 /*  	line-height: 20px;*/
   	width: 25%;
 /* text-align: middle;
   	color : #2F2F2F;
   	color : rgb(47, 47, 47);
 /*  	background-color: #f7c9b1;*/
-  	padding: 0px 0px 0 0px;
+  	padding: 5px 0px 0 0px;
   }
